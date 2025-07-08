@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+  font-family: 'IBM Plex Sans';
+  line-height: 1.6;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 3.6rem;
+}
+
+h2 {
+  color: #f8f7f9;
+  font-size: 2.8rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  line-height: 2.3rem;
+  font-size: 1.5rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  color: #d0aaff;
+}
+
+.section-two h2 {
+  color: inherit;
+}
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+.btn {
+  width: 15rem;
+  height: 5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+
+.btn-dark {
+  color: whitesmoke;
+  background: #5f29a3;
+}
+
+.btn-mid {
+  color: #5f29a3;
+  background: #f0e0ff;
+}
+
+.btn-light {
+  color: #5f29a3;
+  background: whitesmoke;
+}
+
+.btn:hover,
+.btn:active {
+  color: #2b238a;
+  background-color: #f3e885;
+}
+
+header,
+section,
+footer {
+  padding: 4.6rem 0;
+}
+
+header,
+.section-two {
+  background-color: #5f29a3;
+}
+
+.section-two {
+  color: whitesmoke;
+}
+
+.container {
+  width: 90%;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.main-image {
+  width: 90%;
+  max-width: 640rem;
+  margin: 0 auto 3.2rem;
+  display: block;
+}
+
+.section-two-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-image {
+  width: 48.8%;
+  border-radius: 0.5rem;
+  /* display: inline-block;
+  vertical-align: top; */
+}
+
+footer {
+  text-align: center;
+  color: #f0eff2;
+}
