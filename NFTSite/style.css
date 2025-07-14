@@ -61,18 +61,15 @@ a:active {
 }
 
 .btn {
-  width: 15rem;
-  height: 5rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 500;
   text-decoration: none;
-  border-radius: 0.5rem;
-  margin: 1rem 0;
+  text-align: center;
+  display: block;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  border-radius: 4.6px;
 }
-
 
 .btn-dark {
   color: whitesmoke;
@@ -98,7 +95,7 @@ a:active {
 header,
 section,
 footer {
-  padding: 4.6rem 0;
+  padding: 1.25em 0;
 }
 
 header,
@@ -117,20 +114,16 @@ header,
 }
 
 .main-image {
-  width: 90%;
+  width: 100%;
+  display: block;
   max-width: 640rem;
   margin: 0 auto 3.2rem;
-  display: block;
-}
-
-.section-two-image-container {
-  display: flex;
-  justify-content: space-between;
 }
 
 .feature-image {
-  width: 48.8%;
+  width: 100%;
   border-radius: 0.5rem;
+  margin-bottom: 1rem;
   /* display: inline-block;
   vertical-align: top; */
 }
@@ -138,4 +131,28 @@ header,
 footer {
   text-align: center;
   color: #f0eff2;
+}
+
+@media (min-width: 480px) {
+  .section-two-image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feature-image {
+    width: 48.8%;
+  }
+}
+
+@media (min-width: 768px) {
+  header,
+  section,
+  footer {
+    padding: 2.875em 0;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
 }
