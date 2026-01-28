@@ -1,0 +1,19 @@
+:root {
+  --color-bg-light: #f8f8f8;
+  --color-text-muted: #707070;
+  --color-accent: #1792d2;
+  --color-accent-dark: #143774;
+
+  --font-serif: 'Lora', serif;
+  --font-sans: 'Ubuntu', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
