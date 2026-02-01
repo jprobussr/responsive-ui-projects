@@ -31,11 +31,12 @@ body {
   font-size: 3rem;
   color: var(--color-accent-dark);
   margin: 0;
+  line-height: 1.1;
 }
 
 .brand__subtitle {
-  margin: 0;
-  font-size: 0.75rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -64,10 +65,22 @@ body {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--color-accent-dark);
+}
+
+.nav-link:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 
 .nav-link--active {
-  border-bottom: 2px solid var(--color-accent-dark);
+  color: var(--color-accent-dark);
+  border-bottom: 2px solid var(--color-accent);
   padding-bottom: 0.25rem;
 }
 
@@ -79,4 +92,35 @@ body {
 
 .brand {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+    text-align: left;
+  }
+
+  .brand__title {
+    font-size: 3.375rem;
+  }
+
+  .nav-list {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+
+  .nav-item + .nav-item {
+    margin-top: 0;
+  }
+
+  .site-nav {
+    margin-top: 0;
+  }
 }
