@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="site-header" class="site-header">
+      <div class="site-header__inner">
+        <a href="#" class="site-header__brand">JP</a>
+
+        <nav id="primary-nav" class="site-header__nav" aria-label="Primary">
+          <ul class="site-header__links">
+            <li><a href="#" class="site-header__link">Work</a></li>
+            <li><a href="#" class="site-header__link">About</a></li>
+            <li><a href="#" class="site-header__link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button id="menu-btn" class="site-header__menu" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">&#9776;</button>
+      </div>
+    </header>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
