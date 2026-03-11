@@ -38,3 +38,41 @@ body {
   padding: 1.5rem;
 }
 
+.recipe-card__title {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #1e3a8a;
+}
+
+.recipe-card__text {
+  margin: 1rem 0 0;
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+.recipe-card__link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0ea5e9;
+}
+
+.recipe-card__media {
+  margin-top: 1.5rem;
+}
+
+.recipe-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.recipe-card__meta {
+  margin: 1.5rem 0 0;
+  font-size: 1rem;
+  color: var(--muted);
+}
