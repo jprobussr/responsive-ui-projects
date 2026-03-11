@@ -1,0 +1,40 @@
+:root {
+  --bg: #f4f6fb;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --accent: #2563eb;
+
+  --border: rgba(15, 23, 42, 0.1);
+
+  --radius: 14px;
+  --container: 40rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.layout {
+  width: min(100% - 2rem, var(--container));
+  margin-inline: auto;
+  padding: 2rem 0;
+}
+
+.recipe-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+}
+
