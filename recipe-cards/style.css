@@ -106,6 +106,28 @@ h1 {
   margin: 0;
 }
 
+.recipe-toggle {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--accent);
+    color: var(--surface);
+    font-size: 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.recipe-toggle:hover {
+    opacity: 0.9;
+}
+
+.recipe-instructions {
+    display: none;
+    margin-top: 0.75rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
 @media (min-width: 768px) {
   .recipes-grid {
     flex-direction: row;
