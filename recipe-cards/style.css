@@ -11,7 +11,7 @@
 
   --radius: 14px;
 
-  --container: 40rem;
+  --container: 72rem;
 }
 
 *,
@@ -49,6 +49,7 @@ h1 {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
+  width: 100%;
 }
 
 .recipe-image {
@@ -103,4 +104,15 @@ h1 {
 .recipe-description,
 .recipe-category {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .recipes-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .recipe-card {
+    flex: 0 1 calc(50% - 0.75rem);
+  }
 }
